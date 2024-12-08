@@ -8,3 +8,6 @@ cp -rp /root/opt/config/* ~/.config/
 
 # 2.将config/tmux/下的配置文件拷贝到用户的家目录下
 cp -rp /root/opt/config/tmux/* ~/
+
+# 3.将.bashrc文件拷贝到用户的家目录下
+cp -rp /root/opt/config/bashrc ~/.bashrc
