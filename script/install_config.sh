@@ -11,8 +11,8 @@ fi
 cp -rp /root/opt/config/* ~/.config/
 
 # 2.将config/tmux/下的配置文件拷贝到用户的家目录下
-cp -rp /root/opt/config/tmux/tmux.conf ~/.tmux.conf
-cp -rp /root/opt/config/tmux/tmux.conf.local ~/.tmux.conf.local
+cp -rp /root/opt/config/tmux/.tmux.conf ~/.tmux.conf
+cp -rp /root/opt/config/tmux/.tmux.conf.local ~/.tmux.conf.local
 
 # 3.将.bashrc文件拷贝到用户的家目录下
 cp -rp /root/opt/config/bashrc ~/.bashrc
